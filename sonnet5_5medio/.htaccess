@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(config|db|totp|auth|acceso|vista)\.php$|\.sql$">
+    Require all denied
+</FilesMatch>
